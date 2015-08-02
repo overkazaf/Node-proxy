@@ -15,7 +15,7 @@ http.createServer(function(req,res){
 
     var options = {
         //hostname : '50.117.87.141',
-        hostname : '119.75.217.109',
+        hostname : '119.75.217.109', // try to connect google
         port : 80,
         path : '/',
         method : 'GET'
