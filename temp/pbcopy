@@ -1,0 +1,10 @@
+<div style="width:400px;height:200px;border:1px dotted #aaa;">
+  <ul true>
+    <li>
+      <a href="x" title="xx">
+      	<img src="" alt="x" />
+      </a>
+    </li>
+  </ul>
+
+</div>

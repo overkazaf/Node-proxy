@@ -1,0 +1,8 @@
+<ul>
+	<@cmsAlllist lmxx="ztb,zcfg,tpxw,zbxx,zbgs" count="520" order="" hasImg="1">
+    <#list messageMap as nr>
+      <li>
+        [${nr.siteColumn.columnName!''}]<a href="${(nr.msgAll.htmlPath!'')}" title="${(nr.msgAll.msgTitle)!''}">${(nr.msgAll.msgTitle)!''}</a>
+      </li>
+    </#list>
+</@cmsAlllist>
